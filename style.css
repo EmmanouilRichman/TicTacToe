@@ -1,0 +1,97 @@
+table{
+    margin: 5px auto;
+}
+
+#container td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rock Salt', cursive;
+}
+
+td:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+#top{
+    border-bottom: 2px solid black;
+}
+.vertical{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+p{
+    font-size: 40px;
+}
+
+#title>p{
+   font-size: 20px;
+   font-family: 'Great Vibes', cursive;
+   font-weight: bolder;
+}
+
+button{
+    width: 100px;
+    height: 100x;
+    font-weight: bold;
+    border: none;
+}
+.horizontal{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#title{
+    text-align: center;
+    background-color: rgba(40, 92, 75, 0.66);
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    border: 2px solid white;
+    height: 210px;
+}
+
+h1{
+    vertical-align: bottom;
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 10px;
+}
+
+ #container{
+    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+#menu{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#container{
+    padding-top: 10px;
+}
+body{
+    background-color: steelblue;
+    margin: 0;
+}
+
+hr{
+    width: 200px;
+    opacity: 20%;
+    box-shadow: white;
+}
+
+#menu>p{
+    font-family: 'Pangolin', cursive;
+}
+
+.highlight{
+    color:white;
+}

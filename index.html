@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic-Tac-Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pangolin|Permanent+Marker|Rock+Salt&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <div id="title">
+                <h1>Tic-Tac-Toe</h1>
+                <hr>
+                <p>By: Emmanouil Richman</p>
+            </div>
+        <div id="container">
+            <table>
+                <tr>
+                    <td id="square"></td>
+                    <td id="square "class="vertical"></td>
+                    <td id="square"></td>
+                </tr>
+                <tr>
+                    <td id="square" class="horizontal" ></td>
+                    <td id="square" class="vertical horizontal"></td>
+                    <td id="square" class="horizontal"></td>
+                </tr>
+                <tr>
+                    <td id="square" ></td>
+                    <td id="square" class="vertical"></td>
+                    <td id="square"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="menu">
+                <p id="p1">Player 1: <span id="score1">0</span></p>
+                <p id="p2">Player 2: <span id="score2">0</span></p>
+            <button>Reset</button>
+        </div>
+               
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+        <script src="script.js" type="text/javascript" async defer></script>
+    </body>
+</html>
